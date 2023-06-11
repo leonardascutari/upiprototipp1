@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KrkPActivity">
+
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="79dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/logo"
+        />
+
+    <TextView
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="49dp"
+        android:gravity="center"
+        android:text="K R K"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnkrkmjesta"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="45dp" />
+
+    <Button
+        android:id="@+id/btnkrkzanimljivosti"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="45dp"
+        android:text="B" />
+
+    <Button
+        android:id="@+id/btnkrkpriroda"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginBottom="45dp"
+        android:text="U" />
+
+    <Button
+        android:id="@+id/btnkrkzabava"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="3dp"
+        android:text="T" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/framelayout"
+        />
+
+
+</RelativeLayout>

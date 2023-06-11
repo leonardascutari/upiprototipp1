@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Adriatic adventures</string>
+    <string name="dalje">dalje</string>
+    <string name="text">Text</string>
+    <string name="text222">text222\n</string>
+    <string name="text2222">text2222\n</string>
+    <string name="text01">text01\n</string>
+    <string name="otok_krk">OTOK KRK</string>
+    <string name="otok_cres">OTOK CRES</string>
+    <string name="otok_lo_inj">OTOK LOŠINJ</string>
+    <string name="otok_rab">OTOK RAB</string>
+    <string name="mjesta">MJESTA</string>
+    <string name="priroda">PRIRODA</string>
+    <string name="znamenitosti">ZNAMENITOSTI</string>
+    <string name="zabava">ZABAVA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tocka">b</string>
+    <string name="c_r_e_s">C R E S</string>
+    <string name="logo">logo</string>
+    <string name="back">Back</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CresPActivity">
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="280dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="252dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/mjesta"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="280dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="352dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/priroda"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="455dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/znamenitosti"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="280dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/zabava"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="79dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/logo"
+        />
+
+    <TextView
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="49dp"
+        android:gravity="center"
+        android:text="@string/c_r_e_s"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        android:text="@string/back" />
+
+
+</RelativeLayout>
